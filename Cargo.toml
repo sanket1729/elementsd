@@ -12,7 +12,7 @@ documentation = "https://docs.rs/elementsd/"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bitcoind = "0.23.0"
+bitcoind = {git = "https://github.com/RCasatta/bitcoind", rev = "71f046d161175c188eb75bf63c82acea872ab737"}
 
 [dev-dependencies]
 env_logger = "0.8"
